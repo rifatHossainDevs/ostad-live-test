@@ -56,7 +56,7 @@ class _AddStudentState extends State<AddStudent> {
               ),
 
               TextFormField(
-                keyboardType: TextInputType.text,
+                keyboardType: TextInputType.number,
                 controller: _rollTEController,
                 decoration: InputDecoration(
                   hintText: "Enter roll",
