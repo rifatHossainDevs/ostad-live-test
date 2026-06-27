@@ -1,6 +1,6 @@
 class Student {
   String name;
-  String roll;
+  int roll;
   String department;
 
   Student({required this.name, required this.roll, required this.department});

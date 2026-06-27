@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:ostad_live_test/model/add_student.dart';
 import 'package:ostad_live_test/screens/home.dart';
 // Import the generated file
 import 'firebase_options.dart';

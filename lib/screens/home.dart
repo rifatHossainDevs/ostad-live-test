@@ -48,7 +48,7 @@ class _HomeState extends State<Home> {
               children: [
                 Expanded(
                   child: ListView.separated(
-                    itemCount: 10,
+                    itemCount: studentList.length,
                     itemBuilder: (context, index) {
                       var student = studentList[index];
                       return Card(
