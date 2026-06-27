@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:ostad_live_test/model/add_student.dart';
+import 'package:ostad_live_test/screens/add_student.dart';
 import 'package:ostad_live_test/model/student.dart';
 
 class Home extends StatefulWidget {
@@ -65,7 +65,7 @@ class _HomeState extends State<Home> {
                               Text("Department: ${student.department}"),
                             ],
                           ),
-                          leading: Text("1"),
+                          leading: Text("${index+1}"),
                         ),
                       );
                     },

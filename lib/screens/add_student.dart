@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:ostad_live_test/model/student.dart';
 
-import '../show_snackbar_message.dart';
+import '../utils/show_snackbar_message.dart';
 
 class AddStudent extends StatefulWidget {
   const AddStudent({super.key});
